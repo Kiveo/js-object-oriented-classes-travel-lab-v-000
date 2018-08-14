@@ -24,7 +24,7 @@ class Route {
 
   blocksTravelled() {
     let horizontalDistance = this.aveToInt(this.endingLocation.horizontal) - this.aveToInt(this.beginningLocation.horizontal);
-    let verticalDistance = this.endingLocation.vertical - this.beginningLocation.vertical
+    let verticalDistance = endingLocation.vertical - beginningLocation.vertical
     // Math.abs() function returns the absolute value of a number, that is
     return Math.abs(horizontalDistance) + Math.abs(verticalDistance);
   }
