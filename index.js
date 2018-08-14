@@ -31,9 +31,9 @@ class Route {
 
   estimatedTime(peak_hours) {
     if(peak_hours) {
-      return blocksTravelled()/2;
+      return this.blocksTravelled()/2;
     } else {
-      return blocksTravelled()/3;
+      return this.blocksTravelled()/3;
     }
   }
 
